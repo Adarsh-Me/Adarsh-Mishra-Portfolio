@@ -1,0 +1,15 @@
+# Static site, no build step: Netlify publishes dist/ exactly as committed.
+# Connect this repo once (Import from Git) and every push to main redeploys.
+
+[build]
+  publish = "dist"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
