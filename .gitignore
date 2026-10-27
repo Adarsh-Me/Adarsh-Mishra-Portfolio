@@ -1,0 +1,14 @@
+node_modules/
+next-version/
+.agents/
+.qoder/
+.netlify/
+*.qoder.site
+skills-lock.json
+.shots/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

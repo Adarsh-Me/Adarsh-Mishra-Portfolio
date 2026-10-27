@@ -1,0 +1,25 @@
+# robots.txt for https://agentic-portfolio-aoao8vruc5c.qoder.website
+# Everything here is public and written to be read. Nothing is disallowed:
+# no Crawl-delay, no forbidden paths, no parameter blocking. The whole site is
+# one page plus plain-text mirrors (llms.txt, llms-full.txt) and two scripts.
+
+User-agent: *
+Allow: /
+
+# Crawlers that match only on their own token still get an explicit allow.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: DuckAssistBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: Meta-ExternalAgent
+User-agent: Bingbot
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://agentic-portfolio-aoao8vruc5c.qoder.website/sitemap.xml

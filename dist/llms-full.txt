@@ -1,0 +1,262 @@
+# Adarsh Mishra — full site text
+
+> Complete plain-text version of https://agentic-portfolio-aoao8vruc5c.qoder.website/ for models that do not execute JavaScript.
+
+URL: https://agentic-portfolio-aoao8vruc5c.qoder.website/
+Author: Adarsh Mishra (@Adarsh-Me) — AI engineer · quant researcher · open-source contributor
+Built: hand-written single page. No framework, no template, no analytics, no cookies.
+Stamped: GitHub figures counted 27 Oct 2026; the page re-reads them on every visit.
+
+## Hero
+
+Adarsh Mishra — 2026
+Hello, नमस्ते
+
+I'm Adarsh Mishra — an AI engineer and open-source contributor working where agentic AI, quantitative finance and mathematical modeling meet. I build intelligent systems that hold up: agents that finish the task, alphas that survive their own backtest, patches that land in codebases much larger than my own.
+
+- merged PRs: 46
+- projects: 14
+- contributions / yr: 190
+
+## 01 — About
+
+Systems, mostly. Agents, increasingly.
+
+I care about the boundary case, the lost election, the floating-point default nobody checked. That instinct shows up in three places: agentic workflows built on LangChain and LangGraph, alpha research where an in-sample curve has to survive out-of-sample, and pull requests landing in codebases much larger than mine.
+
+| | |
+| --- | --- |
+| Now | Agentic AI · alpha research |
+| Focus | LangChain · LangGraph · mathematical modeling |
+| Building | Agent-Audit · Image-SDK · Sovereign AI |
+| Running | Cargo ERP — 300+ AWB bookings a day |
+| Open source | 43 merged PRs in 14 other people's projects |
+| Elsewhere | https://github.com/Adarsh-Me |
+
+## 02 — Experience
+
+Where the hours went.
+
+### Research Consultant — WorldQuant BRAIN
+_2026 — now_
+
+- Alpha research on the BRAIN platform: hypothesis to expression to backtest to submission.
+- Signals tuned against the gates that actually matter — Sharpe, turnover, sub-universe stability and correlation to existing alphas.
+- Daily-frequency equity work, judged on out-of-sample behaviour rather than a pretty in-sample curve.
+
+### Freelance developer — Cargo ERP — logistics platform
+_2026 — now_
+
+- Built and maintain a cargo ERP that now runs 300+ AWB bookings a day.
+- Invoice generation, waybill and rate flows, plus the reporting the operations team lives on.
+- Live client work: data corrections, edge cases and uptime are part of the job, not after it.
+
+### Open source contributor — Apache · LLVM · Kubernetes · kornia · OWASP
+_2026 — now_
+
+- 43 merged pull requests across 14 other people's projects.
+- Apache Maka: linked-worktree read boundaries, launch-election handling, durable renames.
+- kornia: homography-scale-independent grid warps, capture-safe loss checks, namedtuple fixes.
+- checkstyle: migrated a dozen XPath regression suites to the inline config parser.
+
+### Independent builder — Agent-Audit · Image-SDK · Sovereign AI
+_2025 — now_
+
+- Agent-Audit: 640 controlled LLM trials for agentic commerce, with a bounded test-mode checkout.
+- Image-SDK: one TypeScript interface across eight image-generation providers.
+- Sovereign AI audit: a training-free provenance check for state-funded models, written up as a research paper.
+- optyra: a GSoC issue radar with tiered polling, rule scoring and Telegram alerts.
+
+## 03 — Selected work
+
+Things I shipped. 4 of them; the rest are at https://github.com/Adarsh-Me?tab=repositories.
+
+### Agent-Audit (2026)
+_Product · LLM evals_
+
+Can AI shopping agents actually see, choose and buy from your catalogue?
+
+A controlled testbed for agentic commerce. Six hundred and forty LLM trials against a real catalogue, CI-backed metrics, a human-gated remediation loop, and a bounded Razorpay checkout in test mode.
+
+- 640 controlled LLM trials across a catalogue the agent has to actually navigate.
+- CI-backed metrics, with human-gated remediation — no silent prompt fixes.
+- A bounded, test-mode Razorpay checkout: the agent can buy without spending.
+- Public dashboard shipped at agentaudit-web.antideploy.com.
+
+Stack: TypeScript, LLM evals, CI, Razorpay
+- Live site: https://agentaudit-web.antideploy.com/
+- Source: https://github.com/Adarsh-Me/Agent-Audit
+
+### Image-SDK (2026)
+_Library · TypeScript_
+
+One interface, eight image-generation providers.
+
+A lightweight TypeScript library for generating and editing images through Flux, OpenAI, Stability AI, Google Imagen, Replicate, fal.ai, Ideogram and Recraft — same call shape whichever provider is behind it.
+
+- A single typed surface across eight providers.
+- Covers generation and editing, not just text-to-image.
+- Drops into a Node script or a browser app without a framework.
+
+Stack: TypeScript, Node.js, Flux, OpenAI
+- Source: https://github.com/Adarsh-Me/Image-SDK
+
+### Sovereign AI (2026)
+_Research · Model provenance_
+
+TensorGuard-Lite: auditing 'open-washed' sovereign models without training them.
+
+A training-free provenance auditor for state-funded AI. It pulls deterministic gradient fingerprints out of model weights alone — no training data, no logs, no API — compares them across families, and publishes the result as a research paper with a governance scorecard attached.
+
+- Lineage detection holds: the known derivative (DeepSeek-R1-Distill-Qwen-1.5B) clusters with its parent Qwen2.5-1.5B while Llama and SmolLM stay apart.
+- A 16-dimensional fingerprint — 5 global, 3 attention, 3 FFN, 3 embedding, 2 structural — averaged over deterministic forward-backward passes.
+- Token Tax measured across English, Hindi and Tamil: English-centric tokenizers inflate fertility, and attention cost scales with its square.
+- Ten-dimension transparency scorecard → LOW / MEDIUM / HIGH / UNVERIFIABLE, plus a Compute-Conditional Disclosure proposal tying public compute to disclosure.
+- Single 2,097-line file on a Colab T4, with a Gradio dashboard and JSON, CSV, LaTeX, 600 DPI PNG and SVG exports.
+
+Stack: Python, PyTorch, Transformers, Gradio, Colab T4
+- Research paper: https://github.com/Adarsh-Me/Sovergien/blob/main/Sovereign_AI_Reseach_Paper.pdf
+- Open in Colab: https://colab.research.google.com/github/Adarsh-Me/Sovergien/blob/main/TensorGuard_Lite_Colab.ipynb
+- Source: https://github.com/Adarsh-Me/Sovergien
+
+### Lumiere (2026)
+_Experiment · TypeScript_
+
+Short-form video, generated in the browser.
+
+A TypeScript short-form video generator, deployed on Netlify and usable end to end. Small experiment, live rather than a screenshot.
+
+- TypeScript end to end.
+- Live and usable at lumierevid.netlify.app.
+
+Stack: TypeScript, Netlify
+- Live site: https://lumierevid.netlify.app/
+- Source: https://github.com/Adarsh-Me/Lumiere-Shorts-Generator
+
+## 04 — Open source
+
+Patches, in other people's code.
+
+43 merged pull requests across 14 projects — the quiet kind: a lost launch election, a homography that only worked at one scale, an fsync that had to follow a rename.
+
+Query: https://api.github.com/search/issues?q=is%3Apr+is%3Amerged+author%3AAdarsh-Me&per_page=100 (counted 27 Oct 2026, 46 merged including 3 in his own repositories).
+
+### checkstyle/checkstyle — 14 merged
+
+- [#22225](https://github.com/checkstyle/checkstyle/pull/22225) (2026-10-26) Issue #21861: Migrate four more XpathRegression tests to inline config
+- [#22211](https://github.com/checkstyle/checkstyle/pull/22211) (2026-10-25) Issue #21861: Migrate four XpathRegression tests to inline config
+- [#22164](https://github.com/checkstyle/checkstyle/pull/22164) (2026-10-24) Issue #21861: Migrate five more XpathRegression tests to inline config
+- [#22116](https://github.com/checkstyle/checkstyle/pull/22116) (2026-10-22) Issue #21861: Migrate five XpathRegression tests to inline config
+- [#22071](https://github.com/checkstyle/checkstyle/pull/22071) (2026-10-20) Issue #21861: Migrate XpathRegressionSimplifyBooleanReturnTest to inline config
+- [#22070](https://github.com/checkstyle/checkstyle/pull/22070) (2026-10-20) Issue #21861: Migrate XpathRegressionMissingCtorTest to inline config
+- [#22057](https://github.com/checkstyle/checkstyle/pull/22057) (2026-10-18) Issue #21861: Migrate XpathRegressionIllegalTokenTest to inline config parser
+- [#22056](https://github.com/checkstyle/checkstyle/pull/22056) (2026-10-18) Issue #21861: Migrate XpathRegressionAvoidNoArgumentSuperConstructorCallTest to inline config parser
+- [#22004](https://github.com/checkstyle/checkstyle/pull/22004) (2026-10-17) Issue #21861: Migrate XpathRegressionDefaultComesLastTest to inline config parser
+- [#21988](https://github.com/checkstyle/checkstyle/pull/21988) (2026-10-17) Issue #21861: Migrate XpathRegressionAnnotationOnSameLineTest to inline config parser
+- [#21943](https://github.com/checkstyle/checkstyle/pull/21943) (2026-10-16) Issue #21861: Migrate XpathRegressionIllegalThrowsTest to inline config parser
+- [#21940](https://github.com/checkstyle/checkstyle/pull/21940) (2026-10-14) Issue #21861: Migrate XpathRegressionTextBlockGoogleStyleFormattingTest to inline config parser
+- [#21937](https://github.com/checkstyle/checkstyle/pull/21937) (2026-10-14) Issue #21861: Migrate XpathRegressionAbstractClassNameTest to inline config parser
+- [#21674](https://github.com/checkstyle/checkstyle/pull/21674) (2026-09-26) Issue #21619: keep release notes archive redirect from being superseded
+
+### kornia/kornia — 9 merged
+
+- [#6328](https://github.com/kornia/kornia/pull/6328) (2026-10-27) docs(geometry): keep both depth warp namings and document them as the convention
+- [#6292](https://github.com/kornia/kornia/pull/6292) (2026-10-24) test(geometry): fill the empty exception and cardinality stubs in the So3 and Se3 tests
+- [#5949](https://github.com/kornia/kornia/pull/5949) (2026-10-15) fix(geometry): make grid warps independent of the homography scale
+- [#5884](https://github.com/kornia/kornia/pull/5884) (2026-10-13) fix(augmentation): blend boxes by the frame gate in inverse_boxes
+- [#5712](https://github.com/kornia/kornia/pull/5712) (2026-10-11) fix(losses): skip the Hausdorff range check under any capture
+- [#5704](https://github.com/kornia/kornia/pull/5704) (2026-10-10) fix(metrics): skip the data-dependent checks under any capture
+- [#5626](https://github.com/kornia/kornia/pull/5626) (2026-10-10) fix(core): document that is_exporting is export-specific, not capture-specific
+- [#5444](https://github.com/kornia/kornia/pull/5444) (2026-10-06) fix(core): keep namedtuple fields in dataclass_to_dict
+- [#5456](https://github.com/kornia/kornia/pull/5456) (2026-10-05) fix(core): validate batch_size and matrix operands in kornia.core.utils
+
+### apache/maka — 7 merged
+
+- [#6105](https://github.com/apache/maka/pull/6105) (2026-10-19) fix(runtime): resolve a linked worktree read boundary to its common git dir
+- [#6098](https://github.com/apache/maka/pull/6098) (2026-10-16) fix(core): gate connection base URLs with the Runtime Host's own rules
+- [#5922](https://github.com/apache/maka/pull/5922) (2026-10-10) fix(runtime-host): stop treating a lost launch election as a Host failure
+- [#5862](https://github.com/apache/maka/pull/5862) (2026-10-10) fix(runtime-host): key the WorkHub candidate identity on the Session, not the set
+- [#4937](https://github.com/apache/maka/pull/4937) (2026-10-10) refactor(runtime): extract tool-call argument projections
+- [#4875](https://github.com/apache/maka/pull/4875) (2026-09-27) fix(desktop): fsync the artifact directory after a successful rename
+- [#4811](https://github.com/apache/maka/pull/4811) (2026-09-06) fix(desktop): retry a transient update-check failure once before surfacing it
+
+### kubernetes/kubernetes — 2 merged
+
+- [#142847](https://github.com/kubernetes/kubernetes/pull/142847) (2026-10-09) test/e2e_node: drop the dead jenkins conformance script
+- [#142018](https://github.com/kubernetes/kubernetes/pull/142018) (2026-09-21) Remove WindowsHostNetwork feature gate
+
+### llvm/llvm-project — 2 merged
+
+- [#222256](https://github.com/llvm/llvm-project/pull/222256) (2026-10-08) [flang][semantics] Reject DATA-style initializer on EXTERNAL/INTRINSIC
+- [#222020](https://github.com/llvm/llvm-project/pull/222020) (2026-10-08) [NFC][clang][Modules] Add regression test for implicit lambda capture from merged module copies
+
+### abhinav-phi/neuroAd_engine — 1 merged
+
+- [#2](https://github.com/abhinav-phi/neuroAd_engine/pull/2) (2026-04-06) Harden video prediction and local env loading
+
+### abhinav-phi/optyra — 1 merged
+
+- [#1](https://github.com/abhinav-phi/optyra/pull/1) (2026-09-03) feat(deploy): make worker Render-safe (lock handoff, SIGTERM, PORT, U…
+
+### apache/arrow — 1 merged
+
+- [#51203](https://github.com/apache/arrow/pull/51203) (2026-09-07) GH-51194: [C++] Fix cumulative_max/min default start for floating-point types
+
+### apache/dolphinscheduler — 1 merged
+
+- [#18670](https://github.com/apache/dolphinscheduler/pull/18670) (2026-10-06) [Fix-18448][UI] Guard workflowDefinition before reading releaseState in the DAG node menu
+
+### apache/hugegraph-doc — 1 merged
+
+- [#500](https://github.com/apache/hugegraph-doc/pull/500) (2026-09-26) docs(auth): mark group paths as the GraphSpace-format exception
+
+### apache/pekko-connectors — 1 merged
+
+- [#1901](https://github.com/apache/pekko-connectors/pull/1901) (2026-09-02) Replace LocalStack with DynamoDB local and GoAws in aws-spi-pekko-http tests
+
+### apache/superset — 1 merged
+
+- [#44168](https://github.com/apache/superset/pull/44168) (2026-09-14) fix(frontend): dispatch warning toasts in downloadAsPdf/downloadAsImage
+
+### jenkinsci/gitlab-plugin — 1 merged
+
+- [#1955](https://github.com/jenkinsci/gitlab-plugin/pull/1955) (2026-10-18) fix: avoid IndexOutOfBoundsException on push hooks with no commits
+
+### OWASP/CheatSheetSeries — 1 merged
+
+- [#2780](https://github.com/OWASP/CheatSheetSeries/pull/2780) (2026-10-15) fix(cheatsheets): point 9 in-page anchors at the heading IDs the site generates
+
+### Own repositories — 3 merged
+
+- [#1](https://github.com/Adarsh-Me/optyra/pull/1) (2026-09-03) Adarsh-Me/optyra — Make worker Render-safe (lock handoff, SIGTERM, PORT, URL sanitize)
+- [#1](https://github.com/Adarsh-Me/Image-SDK/pull/1) (2026-07-19) Adarsh-Me/Image-SDK — Complete image SDK implementation
+- [#5](https://github.com/Adarsh-Me/Argus-Leo/pull/5) (2026-07-16) Adarsh-Me/Argus-Leo — feat: publish Argus-LEO dashboard
+
+### A little, often
+
+190 contributions in the 12 months from 26 Oct 2025 to 26 Oct 2026. Snapshot in data.js, not live.
+
+## 05 — Stack
+
+Tools I reach for.
+
+- **Languages:** Python, TypeScript, JavaScript, Kotlin, Java, C / C++
+- **AI:** LangChain, LangGraph, PyTorch, Agent evals
+- **Web:** React, Next.js, Node.js
+- **Quant:** WorldQuant BRAIN, Alpha research, Backtesting
+- **Infra:** Git, GitHub Actions, Docker, Kubernetes, Linux
+
+## 06 — Contact
+
+Say hello.
+
+Fastest way to reach him is GitHub — open an issue, send a PR, or DM there. Reproducible bug reports get an answer first. No email address is published on this site.
+
+- GitHub: https://github.com/Adarsh-Me (@Adarsh-Me)
+- X: https://x.com/ItsAdarshM (@itsadarshm)
+- Instagram: https://www.instagram.com/notsoadrsh/ (@notsoadrsh)
+- LinkedIn: https://www.linkedin.com/in/adarsh-mishra-linkdin/ (in/adarsh-mishra-linkdin)
+
+---
+
+© 2026 Adarsh Mishra. Hand-built. No template.

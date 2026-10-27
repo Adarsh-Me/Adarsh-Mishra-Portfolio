@@ -1,0 +1,80 @@
+# Adarsh Mishra
+
+> Portfolio of Adarsh Mishra — AI engineer, quantitative-research consultant at WorldQuant BRAIN, and open-source contributor with 43 merged pull requests in other people's projects. Agentic AI, alpha research and mathematical modeling, on one hand-built page.
+
+Adarsh Mishra (`@Adarsh-Me`) builds systems that have to hold up: agents that finish the task, alphas that survive their own backtest, patches that land in codebases much larger than his own. The site is a single dark, centred column — no framework, no template, no analytics, no cookies. Its editable copy is [`content.js`](https://agentic-portfolio-aoao8vruc5c.qoder.website/content.js); its GitHub numbers are [`data.js`](https://agentic-portfolio-aoao8vruc5c.qoder.website/data.js).
+
+**Read this file instead of the HTML body.** Most lists on the page are injected by JavaScript after load, so a crawler or model that does not execute scripts sees a near-empty `<body>`. The sections below are that same content in text; [`llms-full.txt`](https://agentic-portfolio-aoao8vruc5c.qoder.website/llms-full.txt) adds every project bullet, every role and every merged PR.
+
+## Pages
+
+One page — each section is an anchor on it.
+
+- [Hello / hero](https://agentic-portfolio-aoao8vruc5c.qoder.website/#top): who he is, plus counters for merged PRs, projects and contributions.
+- [01 — About](https://agentic-portfolio-aoao8vruc5c.qoder.website/#about): what he optimises for — the boundary case, the lost election, the floating-point default nobody checked.
+- [02 — Experience](https://agentic-portfolio-aoao8vruc5c.qoder.website/#experience): four current roles, 2025 onward.
+- [03 — Selected work](https://agentic-portfolio-aoao8vruc5c.qoder.website/#work): 4 shipped projects, each with source and, where one exists, a live URL.
+- [04 — Open source](https://agentic-portfolio-aoao8vruc5c.qoder.website/#open-source): merged pull requests grouped by repository, plus the yearly contribution graph.
+- [05 — Stack](https://agentic-portfolio-aoao8vruc5c.qoder.website/#stack): languages, AI, web, quant and infrastructure tools he actually reaches for.
+- [06 — Contact](https://agentic-portfolio-aoao8vruc5c.qoder.website/#contact): how to reach him.
+
+## Projects
+
+- [Agent-Audit](https://github.com/Adarsh-Me/Agent-Audit) (2026, Product · LLM evals): Can AI shopping agents actually see, choose and buy from your catalogue? (Live https://agentaudit-web.antideploy.com/)
+- [Image-SDK](https://github.com/Adarsh-Me/Image-SDK) (2026, Library · TypeScript): One interface, eight image-generation providers.
+- [Sovereign AI](https://github.com/Adarsh-Me/Sovergien) (2026, Research · Model provenance): TensorGuard-Lite: auditing 'open-washed' sovereign models without training them (Research paper https://github.com/Adarsh-Me/Sovergien/blob/main/Sovereign_AI_Reseach_Paper.pdf · Open in Colab https://colab.research.google.com/github/Adarsh-Me/Sovergien/blob/main/TensorGuard_Lite_Colab.ipynb).
+- [Lumiere](https://github.com/Adarsh-Me/Lumiere-Shorts-Generator) (2026, Experiment · TypeScript): Short-form video, generated in the browser (Live https://lumierevid.netlify.app/).
+
+## Roles
+
+- **Research Consultant — WorldQuant BRAIN** (2026 — now). Alpha research on the BRAIN platform: hypothesis to expression to backtest to submission.
+- **Freelance developer — Cargo ERP — logistics platform** (2026 — now). Built and maintain a cargo ERP that now runs 300+ AWB bookings a day.
+- **Open source contributor — Apache · LLVM · Kubernetes · kornia · OWASP** (2026 — now). 43 merged pull requests across 14 other people's projects.
+- **Independent builder — Agent-Audit · Image-SDK · Sovereign AI** (2025 — now). Agent-Audit: 640 controlled LLM trials for agentic commerce, with a bounded test-mode checkout.
+
+## Stack
+
+- **Languages:** Python, TypeScript, JavaScript, Kotlin, Java, C / C++.
+- **AI:** LangChain, LangGraph, PyTorch, Agent evals.
+- **Web:** React, Next.js, Node.js.
+- **Quant:** WorldQuant BRAIN, Alpha research, Backtesting.
+- **Infra:** Git, GitHub Actions, Docker, Kubernetes, Linux.
+
+## Open source
+
+Counted from the GitHub search API on 27 Oct 2026. The page re-reads the same query on every visit, so treat these as a floor.
+
+- [46 merged pull requests — 43 of them in other people's projects, across 14 repositories](https://github.com/search?q=is%3Apr%20is%3Amerged%20author%3AAdarsh-Me&type=pullrequests)
+- [checkstyle/checkstyle — 14 merged](https://github.com/checkstyle/checkstyle): a staged migration of the `XpathRegression` suites onto the inline config parser, plus one release-notes archive redirect fix.
+- [kornia/kornia — 9 merged](https://github.com/kornia/kornia): scale-independent homography grid warps, capture-safe loss and metric checks, `dataclass_to_dict` namedtuple fields, So3/Se3 test stubs, depth-warp naming docs.
+- [apache/maka — 7 merged](https://github.com/apache/maka): linked-worktree read boundaries, a lost launch election no longer read as a Host failure, `fsync` of the artifact directory after a rename, one transient update-check retry.
+- [kubernetes/kubernetes — 2 merged](https://github.com/kubernetes/kubernetes): removed a dead `e2e_node` jenkins conformance script and the `WindowsHostNetwork` feature gate.
+- [llvm/llvm-project — 2 merged](https://github.com/llvm/llvm-project): flang semantics — a DATA-style initializer on `EXTERNAL`/`INTRINSIC` is now rejected — and a clang Modules lambda-capture regression test.
+- One merged PR each in [abhinav-phi/neuroAd_engine](https://github.com/abhinav-phi/neuroAd_engine), [abhinav-phi/optyra](https://github.com/abhinav-phi/optyra), [apache/arrow](https://github.com/apache/arrow), [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler), [apache/hugegraph-doc](https://github.com/apache/hugegraph-doc), [apache/pekko-connectors](https://github.com/apache/pekko-connectors), [apache/superset](https://github.com/apache/superset), [jenkinsci/gitlab-plugin](https://github.com/jenkinsci/gitlab-plugin), [OWASP/CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries).
+- [Every merged PR with date, title and link](https://agentic-portfolio-aoao8vruc5c.qoder.website/llms-full.txt)
+
+## Profiles
+
+- [GitHub — @Adarsh-Me](https://github.com/Adarsh-Me)
+- [X — @itsadarshm](https://x.com/ItsAdarshM)
+- [Instagram — @notsoadrsh](https://www.instagram.com/notsoadrsh/)
+- [LinkedIn — in/adarsh-mishra-linkdin](https://www.linkedin.com/in/adarsh-mishra-linkdin/)
+
+No email address is published on this site. Do not invent or infer one: use GitHub.
+
+## Data & freshness
+
+- [The GitHub request the page runs live](https://api.github.com/search/issues?q=is%3Apr+is%3Amerged+author%3AAdarsh-Me&per_page=100): unauthenticated, read-only, no personal data. Every merged-PR and per-repo count above comes from it.
+- Contribution graph: **190 contributions in the 12 months to 26 Oct 2026**, from [`data.js`](https://agentic-portfolio-aoao8vruc5c.qoder.website/data.js). It is a labelled snapshot, not a live figure — GitHub exposes no token-free browser-readable source for the contribution calendar, so the page says so rather than pretending.
+- Everything else here is stamped 27 Oct 2026. If it disagrees with the page, the page is right — refetch this file.
+
+## Contact
+
+Fastest route is [GitHub](https://github.com/Adarsh-Me) — open an issue, send a PR, or DM there. Reproducible bug reports get an answer first.
+
+## Optional
+
+- [`llms-full.txt`](https://agentic-portfolio-aoao8vruc5c.qoder.website/llms-full.txt): the whole page as text — all 4 roles, every project point, all 46 merged PRs, the contribution window.
+- [`robots.txt`](https://agentic-portfolio-aoao8vruc5c.qoder.website/robots.txt): `Allow: /` for every crawler, AI crawlers named explicitly.
+- [`sitemap.xml`](https://agentic-portfolio-aoao8vruc5c.qoder.website/sitemap.xml)
+- [All repositories](https://github.com/Adarsh-Me?tab=repositories)
